@@ -19,3 +19,4 @@ inet_pton.c
 im-140.diff
 t/use.t
 META.yml                                 Module meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
