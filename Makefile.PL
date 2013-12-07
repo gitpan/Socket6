@@ -25,10 +25,10 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 
-# $Id: Makefile.PL,v 1.8 2008/11/01 19:01:10 ume Exp $
+# $Id: Makefile.PL,v 1.10 2013/12/07 18:42:12 ume Exp $
 
-use ExtUtils::MakeMaker;
 use Config;
+use ExtUtils::MakeMaker;
 
 if ($^O eq 'MSWin32') {
     configure_mswin32();
